@@ -1,0 +1,24 @@
+.cadastro{
+    padding: 32px;
+    background-color: #191919;
+    /* border-top: solid 5px #257be5;
+    border-bottom: solid 5px #257be5; */
+}
+
+.cadastro-box{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cadastro h3{
+    color: white;
+    font-size: 32px;
+    font-weight: 800;
+    width: 432px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin-left: 85px;
+}

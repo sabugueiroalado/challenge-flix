@@ -1,0 +1,39 @@
+.cabecalho-container{
+    background-color: #030910;
+    width: 100%;
+    height: 125px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho-img{
+    width: 168.45px;
+    height: 40px;
+    margin-left: 50px;
+}
+
+.cabecalho-botoes{
+    display: flex;
+    gap: 25px;
+}
+
+.botao-home, .botao-adicionar-video {
+    width: 180.13px;
+    height: 54px;
+    margin-right: 50px;
+    border-radius: 15px;
+    color: white;
+    background-color: #030910;
+    font-size: 18px;
+    font-weight: 900;
+    border-color: white;
+    cursor: pointer;
+}
+
+.botao-home:hover, .botao-adicionar-video:hover {
+    box-shadow: 0 0 10px #ffffff, 0 0 20px #2271D1, 0 0 30px #2271D1, 0 0 50px #2271D1;
+    text-shadow: 0 0 10px #2271D1, 0 0 20px #2271D1, 0 0 30px #2271D1, 0 0 50px #2271D1;
+}
+
+

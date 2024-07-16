@@ -1,0 +1,40 @@
+.video-container {
+
+}
+
+.video-container-miniatura{
+    border: solid 5px #6bd1ff;
+    width: 432px;
+    height: 260.85px;
+    border-radius: 4px 4px 0 0;
+}
+
+.video-container-miniatura iframe{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.video-container-miniatura-funcoes{
+    background-color: black;
+    border: solid 5px #6bd1ff;
+    border-top: none;
+    border-radius: 0 0 15px 15px;
+    width: 432px;
+    height: 59px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.video-container-miniatura-funcoes-click{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: 800;
+    gap: 15px;
+}
+
+.video-container-miniatura-funcoes-click img {
+    max-width: 24.43px;
+    height: 28px;
+}

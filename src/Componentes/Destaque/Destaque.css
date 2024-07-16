@@ -1,0 +1,54 @@
+.destaque {
+    background-image: url('https://img.youtube.com/vi/aezstCBHOPQ/maxresdefault.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 9%;
+}
+
+
+.destaque-descricao-box {
+    align-items: flex-end;
+}
+
+.destaque-descricao-box h1 {
+    background-color: #6bd1ff;
+    color: white;
+    font-size: 48px;
+    font-weight: 800;
+    width: 432px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.destaque-descricao-box h3 {
+    color: white;
+    font-size: 46px;
+    font-weight: 400;
+}
+
+.destaque-descricao-box p {
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    width: 500px;
+    text-align: justify;
+}
+
+
+.destaque-video-box{
+    width: 646px;
+    height: 333.58px;
+    border: solid 5px #6bd1ff;
+    border-radius: 5px;
+}
+
+.destaque-video-box iframe {
+    width: 100%;
+    height: 100%;
+}
